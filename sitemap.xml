@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xinlwork.com/about/index.html</loc>
+    <loc>https://xinlwork.cn/about/index.html</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://xinlwork.com/2022/03/29/hello-world/</loc>
+    <loc>https://xinlwork.cn/2022/03/29/hello-world/</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://xinlwork.com/2022/03/29/test3/</loc>
+    <loc>https://xinlwork.cn/2022/03/29/test3/</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://xinlwork.com/2022/03/29/test2/</loc>
+    <loc>https://xinlwork.cn/2022/03/29/test2/</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://xinlwork.com/2022/03/29/test1/</loc>
+    <loc>https://xinlwork.cn/2022/03/29/test1/</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://xinlwork.com/tags/index.html</loc>
+    <loc>https://xinlwork.cn/tags/index.html</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://xinlwork.com/repository/index.html</loc>
+    <loc>https://xinlwork.cn/repository/index.html</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://xinlwork.com/links/index.html</loc>
+    <loc>https://xinlwork.cn/links/index.html</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://xinlwork.com/categories/index.html</loc>
+    <loc>https://xinlwork.cn/categories/index.html</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://xinlwork.com/books/index.html</loc>
+    <loc>https://xinlwork.cn/books/index.html</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://xinlwork.com/404.html</loc>
+    <loc>https://xinlwork.cn/404.html</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -102,7 +102,7 @@
   
 
   <url>
-    <loc>https://xinlwork.com/</loc>
+    <loc>https://xinlwork.cn/</loc>
     <lastmod>2022-03-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -110,21 +110,21 @@
 
   
   <url>
-    <loc>https://xinlwork.com/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://xinlwork.cn/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2022-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xinlwork.com/tags/%E7%BC%96%E7%A8%8B/</loc>
+    <loc>https://xinlwork.cn/tags/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2022-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xinlwork.com/tags/%E5%87%BD%E6%95%B0%E4%BD%93/</loc>
+    <loc>https://xinlwork.cn/tags/%E5%87%BD%E6%95%B0%E4%BD%93/</loc>
     <lastmod>2022-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -133,7 +133,7 @@
 
   
   <url>
-    <loc>https://xinlwork.com/categories/c%E8%AF%AD%E8%A8%80/</loc>
+    <loc>https://xinlwork.cn/categories/c%E8%AF%AD%E8%A8%80/</loc>
     <lastmod>2022-03-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -3,14 +3,14 @@
   <title>学习记录</title>
   
   <subtitle>xin的个人博客</subtitle>
-  <link href="https://xinlwork.com/atom.xml" rel="self"/>
+  <link href="https://xinlwork.cn/atom.xml" rel="self"/>
   
-  <link href="https://xinlwork.com/"/>
+  <link href="https://xinlwork.cn/"/>
   <updated>2022-03-29T10:46:05.049Z</updated>
-  <id>https://xinlwork.com/</id>
+  <id>https://xinlwork.cn/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Xin Liu</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>内存分配</title>
-    <link href="https://xinlwork.com/2022/03/29/test3/"/>
-    <id>https://xinlwork.com/2022/03/29/test3/</id>
+    <link href="https://xinlwork.cn/2022/03/29/test3/"/>
+    <id>https://xinlwork.cn/2022/03/29/test3/</id>
     <published>2022-03-29T08:46:59.000Z</published>
     <updated>2022-03-29T10:46:05.049Z</updated>
     
@@ -33,17 +33,17 @@
     
     
     
-    <category term="c语言" scheme="https://xinlwork.com/categories/c%E8%AF%AD%E8%A8%80/"/>
+    <category term="c语言" scheme="https://xinlwork.cn/categories/c%E8%AF%AD%E8%A8%80/"/>
     
     
-    <category term="函数体" scheme="https://xinlwork.com/tags/%E5%87%BD%E6%95%B0%E4%BD%93/"/>
+    <category term="函数体" scheme="https://xinlwork.cn/tags/%E5%87%BD%E6%95%B0%E4%BD%93/"/>
     
   </entry>
   
   <entry>
     <title>测试2</title>
-    <link href="https://xinlwork.com/2022/03/29/test2/"/>
-    <id>https://xinlwork.com/2022/03/29/test2/</id>
+    <link href="https://xinlwork.cn/2022/03/29/test2/"/>
+    <id>https://xinlwork.cn/2022/03/29/test2/</id>
     <published>2022-03-29T08:39:03.000Z</published>
     <updated>2022-03-29T08:45:11.400Z</updated>
     
@@ -61,14 +61,14 @@
     
     
     
-    <category term="编程" scheme="https://xinlwork.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://xinlwork.cn/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>测试1</title>
-    <link href="https://xinlwork.com/2022/03/29/test1/"/>
-    <id>https://xinlwork.com/2022/03/29/test1/</id>
+    <link href="https://xinlwork.cn/2022/03/29/test1/"/>
+    <id>https://xinlwork.cn/2022/03/29/test1/</id>
     <published>2022-03-29T08:38:48.000Z</published>
     <updated>2022-03-29T08:44:10.142Z</updated>
     
@@ -84,14 +84,14 @@
     
     
     
-    <category term="生活" scheme="https://xinlwork.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://xinlwork.cn/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://xinlwork.com/2022/03/29/hello-world/"/>
-    <id>https://xinlwork.com/2022/03/29/hello-world/</id>
+    <link href="https://xinlwork.cn/2022/03/29/hello-world/"/>
+    <id>https://xinlwork.cn/2022/03/29/hello-world/</id>
     <published>2022-03-29T04:05:05.539Z</published>
     <updated>2022-03-29T11:54:33.169Z</updated>
     
