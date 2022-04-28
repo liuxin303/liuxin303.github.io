@@ -3,7 +3,6 @@ https://xinlwork.cn/about/index.html
 https://xinlwork.cn/2022/03/29/hello-world/
 https://xinlwork.cn/tags/index.html
 https://xinlwork.cn/repository/index.html
-https://xinlwork.cn/links/index.html
 https://xinlwork.cn/categories/index.html
 https://xinlwork.cn/books/index.html
 https://xinlwork.cn/404.html
