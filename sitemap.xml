@@ -101,7 +101,21 @@
 
   
   <url>
-    <loc>https://xinlwork.cn/tags/%E5%B7%A5%E5%85%B7-typora-notion/</loc>
+    <loc>https://xinlwork.cn/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2022-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinlwork.cn/tags/typora/</loc>
+    <lastmod>2022-04-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinlwork.cn/tags/notion/</loc>
     <lastmod>2022-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

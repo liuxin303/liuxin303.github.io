@@ -9,7 +9,9 @@ https://xinlwork.cn/2022/03/29/hello-world/
 https://xinlwork.cn/repository/index.html
 https://xinlwork.cn/404.html
 https://xinlwork.cn/
-https://xinlwork.cn/tags/%E5%B7%A5%E5%85%B7-typora-notion/
+https://xinlwork.cn/tags/%E5%B7%A5%E5%85%B7/
+https://xinlwork.cn/tags/typora/
+https://xinlwork.cn/tags/notion/
 https://xinlwork.cn/tags/hexo/
 https://xinlwork.cn/categories/%E5%B7%A5%E5%85%B7/
 https://xinlwork.cn/categories/%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/
