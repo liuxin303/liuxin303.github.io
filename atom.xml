@@ -6,7 +6,7 @@
   <link href="https://xinlwork.cn/atom.xml" rel="self"/>
   
   <link href="https://xinlwork.cn/"/>
-  <updated>2022-03-30T05:11:19.105Z</updated>
+  <updated>2022-04-29T07:31:03.983Z</updated>
   <id>https://xinlwork.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于各种工具的总结</title>
+    <link href="https://xinlwork.cn/2022/04/29/%E5%85%B3%E4%BA%8E%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7%E7%9A%84%E6%80%BB%E7%BB%93/"/>
+    <id>https://xinlwork.cn/2022/04/29/%E5%85%B3%E4%BA%8E%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7%E7%9A%84%E6%80%BB%E7%BB%93/</id>
+    <published>2022-04-29T07:12:52.000Z</published>
+    <updated>2022-04-29T07:31:03.983Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="文章测试"><a href="#文章测试" class="headerlink" title="文章测试"></a>文章测试</h1><h2 id="发布文章测试"><a href="#发布文章测试" class="headerlink" title="发布文章测试"></a>发布文章测试</h2><p>关于butterfly主题发布页面(<a href="https://butterfly.js.org/posts/dc584b87/#Post-Front-matter)%E7%9A%84%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E3%80%82">https://butterfly.js.org/posts/dc584b87/#Post-Front-matter)的配置信息。</a></p><p>mathjax : $$ \frac{x^2}{y^2} $$</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;文章测试&quot;&gt;&lt;a href=&quot;#文章测试&quot; class=&quot;headerlink&quot; title=&quot;文章测试&quot;&gt;&lt;/a&gt;文章测试&lt;/h1&gt;&lt;h2 id=&quot;发布文章测试&quot;&gt;&lt;a href=&quot;#发布文章测试&quot; class=&quot;headerlink&quot; title=&quot;发布文章测</summary>
+      
+    
+    
+    
+    <category term="工具" scheme="https://xinlwork.cn/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="工具  typora notion" scheme="https://xinlwork.cn/tags/%E5%B7%A5%E5%85%B7-typora-notion/"/>
+    
+  </entry>
   
   <entry>
     <title>记一次博客配置时的gitalk403问题</title>
