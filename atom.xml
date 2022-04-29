@@ -6,7 +6,7 @@
   <link href="https://xinlwork.cn/atom.xml" rel="self"/>
   
   <link href="https://xinlwork.cn/"/>
-  <updated>2022-04-29T07:58:17.937Z</updated>
+  <updated>2022-04-29T08:08:34.547Z</updated>
   <id>https://xinlwork.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://xinlwork.cn/2022/04/29/%E5%85%B3%E4%BA%8E%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7%E7%9A%84%E6%80%BB%E7%BB%93/"/>
     <id>https://xinlwork.cn/2022/04/29/%E5%85%B3%E4%BA%8E%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7%E7%9A%84%E6%80%BB%E7%BB%93/</id>
     <published>2022-04-29T07:12:52.000Z</published>
-    <updated>2022-04-29T07:58:17.937Z</updated>
+    <updated>2022-04-29T08:08:34.547Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="文章测试"><a href="#文章测试" class="headerlink" title="文章测试"></a>文章测试</h1><h2 id="发布文章测试"><a href="#发布文章测试" class="headerlink" title="发布文章测试"></a>发布文章测试</h2><p>关于butterfly主题发布页面(<a href="https://butterfly.js.org/posts/dc584b87/#Post-Front-matter)%E7%9A%84%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E3%80%82">https://butterfly.js.org/posts/dc584b87/#Post-Front-matter)的配置信息。</a></p><p>mathjax : $$ \frac{x^2}{y^2} $$</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="文章测试"><a href="#文章测试" class="headerlink" title="文章测试"></a>文章测试</h1><h2 id="发布文章测试"><a href="#发布文章测试" class="headerlink" title="发布文章测试"></a>发布文章测试</h2><p>关于butterfly主题发布页面(<a href="https://butterfly.js.org/posts/dc584b87/#Post-Front-matter)%E7%9A%84%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E3%80%82">https://butterfly.js.org/posts/dc584b87/#Post-Front-matter)的配置信息。</a></p><p>mathjax : $$ \frac{x^2}{y^2} $$</p><h2 id="mathjax-测试"><a href="#mathjax-测试" class="headerlink" title="mathjax 测试"></a>mathjax 测试</h2><p>test</p>]]></content>
     
     
       
@@ -36,7 +36,7 @@
     <category term="工具" scheme="https://xinlwork.cn/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="-工具  -typora -notion" scheme="https://xinlwork.cn/tags/%E5%B7%A5%E5%85%B7-typora-notion/"/>
+    <category term="-工具 -typora -notion" scheme="https://xinlwork.cn/tags/%E5%B7%A5%E5%85%B7-typora-notion/"/>
     
   </entry>
   
