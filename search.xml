@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>关于各种工具的总结</title>
+      <link href="/2022/04/29/%E5%85%B3%E4%BA%8E%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7%E7%9A%84%E6%80%BB%E7%BB%93/"/>
+      <url>/2022/04/29/%E5%85%B3%E4%BA%8E%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7%E7%9A%84%E6%80%BB%E7%BB%93/</url>
+      
+        <content type="html"><![CDATA[<h1 id="文章测试"><a href="#文章测试" class="headerlink" title="文章测试"></a>文章测试</h1><h2 id="发布文章测试"><a href="#发布文章测试" class="headerlink" title="发布文章测试"></a>发布文章测试</h2><p>关于butterfly主题发布页面(<a href="https://butterfly.js.org/posts/dc584b87/#Post-Front-matter)%E7%9A%84%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E3%80%82">https://butterfly.js.org/posts/dc584b87/#Post-Front-matter)的配置信息。</a></p><p>mathjax : $$ \frac{x^2}{y^2} $$</p><h2 id="mathjax-测试"><a href="#mathjax-测试" class="headerlink" title="mathjax 测试"></a>mathjax 测试</h2><p>test</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> typora </tag>
+            
+            <tag> notion </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>记一次博客配置时的gitalk403问题</title>
+      <link href="/2022/03/30/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%97%B6%E7%9A%84gitalk403%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/03/30/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%97%B6%E7%9A%84gitalk403%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一，遇到gitalk授权后403的问题"><a href="#一，遇到gitalk授权后403的问题" class="headerlink" title="一，遇到gitalk授权后403的问题"></a>一，遇到gitalk授权后403的问题</h2><p>部署完hexo博客后，发现gitalk的评论出了问题，于是各种百度谷歌，最后在gitalk的仓库里发现，是github的跨域的问题。</p><p><img src="https://img-1259177572.cos.ap-nanjing.myqcloud.com/picGo/img/gitalkproblem.png" alt="problem"></p><h2 id="二，解决办法"><a href="#二，解决办法" class="headerlink" title="二，解决办法"></a>二，解决办法</h2><p>参考了**<a href="https://github.com/Hanpeng-Chen">Hanpeng-Chen</a>** 老哥的博客<a href="https://www.chenhanpeng.com/create-own-cors-anywhere-to-resolve-the-request-with-403/">^1</a>，解决了跨域问题，但是又提示<code>no access token</code> 的错误，后来在朱林刚的博客<a href="https://www.zhulingang.com/2021/05/17/hexo-gitalk/">^2</a>中找到答案,修改修改_config.yml里的proxy，&#x3D;&#x3D;需要在连接的地方加上 ？&#x3D;&#x3D;</p><p><img src="https://img-1259177572.cos.ap-nanjing.myqcloud.com/picGo/img/gitalkcowu.png"></p><p><img src="https://img-1259177572.cos.ap-nanjing.myqcloud.com/picGo/img/gitalkwh.png"></p><h2 id="三，代码需要修改的部分"><a href="#三，代码需要修改的部分" class="headerlink" title="三，代码需要修改的部分"></a>三，代码需要修改的部分</h2><p>代码地址：<a href="https://github.com/liuxin303/cloudflare-cors-anywhere">https://github.com/liuxin303/cloudflare-cors-anywhere</a></p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">blacklist = [ ];           <span class="comment">// regexp for blacklisted urls</span></span><br><span class="line"><span class="comment">// whitelist = [ &quot;.*&quot; ];     // regexp for whitelisted origins</span></span><br><span class="line">whitelist = [ <span class="string">&quot;^http.?://www.xinlwork.cn$&quot;</span>, <span class="string">&quot;xinlwork.cn$&quot;</span> ]</span><br><span class="line">只需要将上面那句修改成自己的域名即可，这是指定自己的域名访问， cloudflare worker每天有<span class="number">10</span>万次的免费访问量。</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 踩过的坑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/03/29/hello-world/"/>
+      <url>/2022/03/29/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
