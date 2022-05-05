@@ -2,9 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xinlwork.cn/2022/04/29/%E5%85%B3%E4%BA%8E%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7%E7%9A%84%E6%80%BB%E7%BB%93/</loc>
+    <loc>https://xinlwork.cn/posts/20fc9bce/</loc>
     
-    <lastmod>2022-04-29</lastmod>
+    <lastmod>2022-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinlwork.cn/posts/9a023501/</loc>
+    
+    <lastmod>2022-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinlwork.cn/posts/a95773f1/</loc>
+    
+    <lastmod>2022-05-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinlwork.cn/posts/4a17b156/</loc>
+    
+    <lastmod>2022-05-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -56,24 +83,6 @@
   </url>
   
   <url>
-    <loc>https://xinlwork.cn/2022/03/30/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%97%B6%E7%9A%84gitalk403%E9%97%AE%E9%A2%98/</loc>
-    
-    <lastmod>2022-03-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xinlwork.cn/2022/03/29/hello-world/</loc>
-    
-    <lastmod>2022-03-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xinlwork.cn/repository/index.html</loc>
     
     <lastmod>2022-03-29</lastmod>
@@ -101,6 +110,20 @@
 
   
   <url>
+    <loc>https://xinlwork.cn/tags/hexo/</loc>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xinlwork.cn/tags/abbrlink/</loc>
+    <lastmod>2022-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xinlwork.cn/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -116,13 +139,6 @@
   
   <url>
     <loc>https://xinlwork.cn/tags/notion/</loc>
-    <lastmod>2022-05-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://xinlwork.cn/tags/hexo/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

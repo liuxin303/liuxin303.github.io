@@ -6,7 +6,7 @@
   <link href="https://xinlwork.cn/atom.xml" rel="self"/>
   
   <link href="https://xinlwork.cn/"/>
-  <updated>2022-04-29T08:13:11.102Z</updated>
+  <updated>2022-05-05T09:47:07.194Z</updated>
   <id>https://xinlwork.cn/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>abbrlink配置</title>
+    <link href="https://xinlwork.cn/posts/20fc9bce/"/>
+    <id>https://xinlwork.cn/posts/20fc9bce/</id>
+    <published>2022-05-05T09:27:50.000Z</published>
+    <updated>2022-05-05T09:47:07.194Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="abbrlink配置"><a href="#abbrlink配置" class="headerlink" title="abbrlink配置"></a>abbrlink配置</h1><h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>因为发现hexo博客里的地址很长且不是固定的，这对后期的收录会造成很大的问题，故配置abbrlink。</p><h2 id="具体配置"><a href="#具体配置" class="headerlink" title="具体配置"></a>具体配置</h2><p>参考地址：<a href="https://github.com/Rozbo/hexo-abbrlink">github</a></p><h3 id="1-add-plugin-into-hexo"><a href="#1-add-plugin-into-hexo" class="headerlink" title="1. add plugin into hexo:"></a>1. add plugin into hexo:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure><h3 id="2-modify-permalink-in-config-yml-file"><a href="#2-modify-permalink-in-config-yml-file" class="headerlink" title="2. modify  permalink in config.yml file:"></a>2. modify  permalink in config.yml file:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">permalink: posts/:abbrlink/ </span><br><span class="line"><span class="comment"># or</span></span><br><span class="line">permalink: posts/:abbrlink.html</span><br></pre></td></tr></table></figure><h3 id="3-add-the-congfig-in-config-yml"><a href="#3-add-the-congfig-in-config-yml" class="headerlink" title="3. add the congfig in config.yml"></a>3. add the congfig in config.yml</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># abbrlink config</span></span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32      <span class="comment">#support crc16(default) and crc32</span></span><br><span class="line">  rep: hex        <span class="comment">#support dec(default) and hex</span></span><br><span class="line">  drafts: <span class="literal">false</span>   <span class="comment">#(true)Process draft,(false)Do not process draft. false(default) </span></span><br><span class="line">  <span class="comment"># Generate categories from directory-tree</span></span><br><span class="line">  <span class="comment"># depth: the max_depth of directory-tree you want to generate, should &gt; 0</span></span><br><span class="line">  auto_category:</span><br><span class="line">     <span class="built_in">enable</span>: <span class="literal">true</span>  <span class="comment">#true(default)</span></span><br><span class="line">     depth:        <span class="comment">#3(default)</span></span><br><span class="line">     over_write: <span class="literal">false</span> </span><br><span class="line">  auto_title: <span class="literal">false</span> <span class="comment">#enable auto title, it can auto fill the title by path</span></span><br><span class="line">  auto_date: <span class="literal">false</span> <span class="comment">#enable auto date, it can auto fill the date by time today</span></span><br><span class="line">  force: <span class="literal">false</span> <span class="comment">#enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink. This only updates abbrlink rather than other front variables.</span></span><br></pre></td></tr></table></figure><h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><h3 id="1-clean-the-cache"><a href="#1-clean-the-cache" class="headerlink" title="1. clean the cache"></a>1. clean the cache</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure><h3 id="2-generate-the-new-file"><a href="#2-generate-the-new-file" class="headerlink" title="2. generate the new file"></a>2. generate the new file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure><h3 id="3-display"><a href="#3-display" class="headerlink" title="3. display"></a>3. display</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p><img src="https://img-1259177572.cos.ap-nanjing.myqcloud.com/picGo/img/blog-abbrlink.png" alt="配置成功"></p><h3 id="4-deploy-to-your-Github"><a href="#4-deploy-to-your-Github" class="headerlink" title="4. deploy to your Github"></a>4. deploy to your Github</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;abbrlink配置&quot;&gt;&lt;a href=&quot;#abbrlink配置&quot; class=&quot;headerlink&quot; title=&quot;abbrlink配置&quot;&gt;&lt;/a&gt;abbrlink配置&lt;/h1&gt;&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerli</summary>
+      
+    
+    
+    
+    <category term="工具" scheme="https://xinlwork.cn/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="hexo" scheme="https://xinlwork.cn/tags/hexo/"/>
+    
+    <category term="abbrlink" scheme="https://xinlwork.cn/tags/abbrlink/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于各种工具的总结</title>
-    <link href="https://xinlwork.cn/2022/04/29/%E5%85%B3%E4%BA%8E%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7%E7%9A%84%E6%80%BB%E7%BB%93/"/>
-    <id>https://xinlwork.cn/2022/04/29/%E5%85%B3%E4%BA%8E%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7%E7%9A%84%E6%80%BB%E7%BB%93/</id>
+    <link href="https://xinlwork.cn/posts/a95773f1/"/>
+    <id>https://xinlwork.cn/posts/a95773f1/</id>
     <published>2022-04-29T07:12:52.000Z</published>
-    <updated>2022-04-29T08:13:11.102Z</updated>
+    <updated>2022-05-05T09:38:56.478Z</updated>
     
     <content type="html"><![CDATA[<h1 id="文章测试"><a href="#文章测试" class="headerlink" title="文章测试"></a>文章测试</h1><h2 id="发布文章测试"><a href="#发布文章测试" class="headerlink" title="发布文章测试"></a>发布文章测试</h2><p>关于butterfly主题发布页面(<a href="https://butterfly.js.org/posts/dc584b87/#Post-Front-matter)%E7%9A%84%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%E3%80%82">https://butterfly.js.org/posts/dc584b87/#Post-Front-matter)的配置信息。</a></p><p>mathjax : $$ \frac{x^2}{y^2} $$</p><h2 id="mathjax-测试"><a href="#mathjax-测试" class="headerlink" title="mathjax 测试"></a>mathjax 测试</h2><p>test</p>]]></content>
     
@@ -46,10 +72,10 @@
   
   <entry>
     <title>记一次博客配置时的gitalk403问题</title>
-    <link href="https://xinlwork.cn/2022/03/30/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%97%B6%E7%9A%84gitalk403%E9%97%AE%E9%A2%98/"/>
-    <id>https://xinlwork.cn/2022/03/30/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E6%97%B6%E7%9A%84gitalk403%E9%97%AE%E9%A2%98/</id>
+    <link href="https://xinlwork.cn/posts/9a023501/"/>
+    <id>https://xinlwork.cn/posts/9a023501/</id>
     <published>2022-03-30T02:13:41.000Z</published>
-    <updated>2022-03-30T05:11:19.105Z</updated>
+    <updated>2022-05-05T09:38:56.481Z</updated>
     
     <content type="html"><![CDATA[<h2 id="一，遇到gitalk授权后403的问题"><a href="#一，遇到gitalk授权后403的问题" class="headerlink" title="一，遇到gitalk授权后403的问题"></a>一，遇到gitalk授权后403的问题</h2><p>部署完hexo博客后，发现gitalk的评论出了问题，于是各种百度谷歌，最后在gitalk的仓库里发现，是github的跨域的问题。</p><p><img src="https://img-1259177572.cos.ap-nanjing.myqcloud.com/picGo/img/gitalkproblem.png" alt="problem"></p><h2 id="二，解决办法"><a href="#二，解决办法" class="headerlink" title="二，解决办法"></a>二，解决办法</h2><p>参考了**<a href="https://github.com/Hanpeng-Chen">Hanpeng-Chen</a>** 老哥的博客<a href="https://www.chenhanpeng.com/create-own-cors-anywhere-to-resolve-the-request-with-403/">^1</a>，解决了跨域问题，但是又提示<code>no access token</code> 的错误，后来在朱林刚的博客<a href="https://www.zhulingang.com/2021/05/17/hexo-gitalk/">^2</a>中找到答案,修改修改_config.yml里的proxy，&#x3D;&#x3D;需要在连接的地方加上 ？&#x3D;&#x3D;</p><p><img src="https://img-1259177572.cos.ap-nanjing.myqcloud.com/picGo/img/gitalkcowu.png"></p><p><img src="https://img-1259177572.cos.ap-nanjing.myqcloud.com/picGo/img/gitalkwh.png"></p><h2 id="三，代码需要修改的部分"><a href="#三，代码需要修改的部分" class="headerlink" title="三，代码需要修改的部分"></a>三，代码需要修改的部分</h2><p>代码地址：<a href="https://github.com/liuxin303/cloudflare-cors-anywhere">https://github.com/liuxin303/cloudflare-cors-anywhere</a></p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">blacklist = [ ];           <span class="comment">// regexp for blacklisted urls</span></span><br><span class="line"><span class="comment">// whitelist = [ &quot;.*&quot; ];     // regexp for whitelisted origins</span></span><br><span class="line">whitelist = [ <span class="string">&quot;^http.?://www.xinlwork.cn$&quot;</span>, <span class="string">&quot;xinlwork.cn$&quot;</span> ]</span><br><span class="line">只需要将上面那句修改成自己的域名即可，这是指定自己的域名访问， cloudflare worker每天有<span class="number">10</span>万次的免费访问量。</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -70,10 +96,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://xinlwork.cn/2022/03/29/hello-world/"/>
-    <id>https://xinlwork.cn/2022/03/29/hello-world/</id>
+    <link href="https://xinlwork.cn/posts/4a17b156/"/>
+    <id>https://xinlwork.cn/posts/4a17b156/</id>
     <published>2022-03-29T04:05:05.539Z</published>
-    <updated>2022-03-29T11:54:33.169Z</updated>
+    <updated>2022-05-05T09:38:56.475Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
